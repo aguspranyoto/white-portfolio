@@ -57,8 +57,8 @@ function Data() {
       </h1>
       <h3 className="home__subtitle">Frontend Developer</h3>
       <p className="home__description">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ea ad
-        perferendis nobis deleniti pariatur.
+        I'm Frontend Developer based in New York, and I'm very passionate and
+        dedicated to my work.
       </p>
 
       <a href="#contact" className="button button--flex">
