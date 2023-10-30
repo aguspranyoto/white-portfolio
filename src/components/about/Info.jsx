@@ -5,20 +5,20 @@ function Info() {
     <div className="about__info grid">
       <div className="about__box">
         <i className="bx bx-award about__icon"></i>
-        <h3 className="about__title">Experience</h3>
-        <span className="about__subtitle">8 Years Working</span>
+        <h3 className="about__title">Work Experience</h3>
+        <span className="about__subtitle">2 Years</span>
       </div>
 
       <div className="about__box">
         <i className="bx bx-briefcase-alt about__icon"></i>
-        <h3 className="about__title">Completed</h3>
-        <span className="about__subtitle">48 + Projects</span>
+        <h3 className="about__title">Web Development Intern</h3>
+        <span className="about__subtitle">9 Months</span>
       </div>
 
       <div className="about__box">
-        <i className="bx bx-support about__icon"></i>
-        <h3 className="about__title">Support</h3>
-        <span className="about__subtitle">Online 24/7</span>
+        <i className="bx bx-file about__icon"></i>
+        <h3 className="about__title">Web Development Bootcamp</h3>
+        <span className="about__subtitle">2 Certificate</span>
       </div>
     </div>
   );

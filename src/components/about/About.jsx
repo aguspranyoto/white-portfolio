@@ -13,7 +13,7 @@ function About() {
         <Toaster />
       </div>
       <h2 className="section__title">About Me</h2>
-      <span className="section__subtitle">My Introductiion</span>
+      <span className="section__subtitle">My Introduction</span>
       <div className="about__container container grid">
         <img src={AboutImg} className="about__img" />
 
@@ -21,9 +21,11 @@ function About() {
           <Info />
 
           <p className="about__description">
-            Frontend developer, I create web pages with UI / UX user interface,
-            I have years of experience and many clients are happy with the
-            projects carried out.
+            Frontend developer, a passionate frontend developer dedicated to
+            bringing digital experiences to life through code and creativity.
+            With a strong foundation in HTML, CSS, and JavaScript, I specialize
+            in crafting beautiful and user-friendly websites and web
+            applications.
           </p>
 
           <a
