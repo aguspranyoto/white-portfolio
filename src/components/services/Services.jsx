@@ -11,15 +11,15 @@ function Services() {
 
   return (
     <section className="services section" id="services">
-      <h2 className="section__title">Services</h2>
-      <span className="section__subtitle">What i offer</span>
+      <h2 className="section__title">Certificate</h2>
+      <span className="section__subtitle">My recent certificate</span>
 
       <div className="services__container container grid">
         <div className="services__content">
           <div>
             <i className="uil uil-web-grid services__icon"></i>
             <h3 className="services__title">
-              Product <br /> Designer
+              Frontend <br /> Engineering <br /> Bootcamp
             </h3>
           </div>
 
@@ -89,7 +89,7 @@ function Services() {
           <div>
             <i className="uil uil-arrow services__icon"></i>
             <h3 className="services__title">
-              Ui/Ux <br /> Designer
+              Junior <br /> Web <br /> Programmer
             </h3>
           </div>
 
@@ -155,7 +155,7 @@ function Services() {
           </div>
         </div>
 
-        <div className="services__content">
+        {/* <div className="services__content">
           <div>
             <i className="uil uil-edit services__icon"></i>
             <h3 className="services__title">
@@ -223,7 +223,7 @@ function Services() {
               </ul>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
