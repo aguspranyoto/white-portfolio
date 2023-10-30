@@ -93,7 +93,7 @@ function Qualification() {
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calender-alt"></i>
-                  2021 - Present
+                  2021 - Present 1
                 </div>
               </div>
 
@@ -184,6 +184,26 @@ function Qualification() {
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">Art Director</h3>
+                <span className="qualification__subtitle">
+                  Mercu Buana - Institute
+                </span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calender-alt"></i>
+                  2021 - Present
+                </div>
               </div>
             </div>
           </div>

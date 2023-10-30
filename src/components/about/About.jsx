@@ -2,10 +2,16 @@ import "./About.css";
 import AboutImg from "../../assets/agus-kotak.png";
 import CV from "../../assets/John-Cv.pdf";
 import Info from "./Info";
+import toast, { Toaster } from "react-hot-toast";
 
 function About() {
+  const downloadCV = () => toast.success("CV downloaded!");
+
   return (
     <section className="about section" id="about">
+      <div>
+        <Toaster />
+      </div>
       <h2 className="section__title">About Me</h2>
       <span className="section__subtitle">My Introductiion</span>
       <div className="about__container container grid">
@@ -20,7 +26,12 @@ function About() {
             projects carried out.
           </p>
 
-          <a download="" href={CV} className="button button--flex">
+          <a
+            download=""
+            href={CV}
+            className="button button--flex"
+            onClick={downloadCV}
+          >
             Download CV
             <svg
               className="button__icon"
