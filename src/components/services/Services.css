@@ -106,7 +106,7 @@
 .services__mdoal-title {
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
-  margin-bottom: var(--mb-1);
+  margin-bottom: var(--mb-2);
 }
 
 .services__modal-description {
@@ -132,6 +132,16 @@
 
 .services__modal-info {
   font-size: var(--small-font-size);
+}
+
+.services__modal-img {
+  text-align: center;
+}
+
+.services__modal-img img {
+  object-fit: cover;
+  width: 450px;
+  height: 350px;
 }
 
 /*=============== BREAKPOINTS ===============*/

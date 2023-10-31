@@ -1,6 +1,8 @@
 import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
+import ComingSoon from "./ComingSoon";
+
 import { projectsData } from "./Data";
 import { projectsNav } from "./Data";
 import WorkItems from "./WorkItems";
@@ -45,9 +47,13 @@ function Works() {
       </div>
 
       <div className="work__container container grid">
-        {projects.map((item) => {
-          return <WorkItems item={item} key={item.id} />;
-        })}
+        {active === 0 || active === 1 ? (
+          projects.map((item) => {
+            return <WorkItems item={item} key={item.id} />;
+          })
+        ) : (
+          <ComingSoon />
+        )}
       </div>
     </div>
   );

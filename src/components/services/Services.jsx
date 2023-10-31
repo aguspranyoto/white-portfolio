@@ -51,7 +51,7 @@ function Services() {
                 UI
               </p>
 
-              <div>
+              <div className="services__modal-img">
                 <img src={certificate1} />
               </div>
             </div>
@@ -89,7 +89,7 @@ function Services() {
                 Create an online shop website with CodeIgniter 3 and Bootstrap.
               </p>
 
-              <div>
+              <div className="services__modal-img">
                 <img src={certificate2} />
               </div>
             </div>
