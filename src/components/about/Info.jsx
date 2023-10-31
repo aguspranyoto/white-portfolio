@@ -18,7 +18,7 @@ function Info() {
       <div className="about__box">
         <i className="bx bx-file about__icon"></i>
         <h3 className="about__title">Web Development Bootcamp</h3>
-        <span className="about__subtitle">2 Certificate</span>
+        <span className="about__subtitle">2 Certificates</span>
       </div>
     </div>
   );

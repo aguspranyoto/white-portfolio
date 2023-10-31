@@ -1,6 +1,6 @@
 import "./About.css";
 import AboutImg from "../../assets/agus-kotak.png";
-import CV from "../../assets/John-Cv.pdf";
+import CV from "../../assets/CV-Agus-pranyoto.pdf";
 import Info from "./Info";
 import toast, { Toaster } from "react-hot-toast";
 

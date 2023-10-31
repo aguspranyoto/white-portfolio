@@ -1,5 +1,6 @@
 import AnimatedPortfolio from "../../assets/animated-portfolio.jpg";
 import MovieLand from "../../assets/movieland.jpg";
+import AdventurePortfolio from "../../assets/adventure-portfolio.jpg";
 
 export const projectsData = [
   {
@@ -14,6 +15,13 @@ export const projectsData = [
     image: MovieLand,
     title: "Movie Land",
     link: "https://aguspranyoto.github.io/react-project-movieland/",
+    category: "web",
+  },
+  {
+    id: 3,
+    image: AdventurePortfolio,
+    title: "Adventure Portfolio",
+    link: "https://aguspranyoto.github.io/portfolio-vite-react/",
     category: "web",
   },
 ];
