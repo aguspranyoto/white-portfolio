@@ -71,7 +71,7 @@ function Header() {
                 }
               >
                 <i className="uil uil-briefcase-alt nav__icon"></i>
-                Services
+                Certificate
               </a>
             </li>
             <li className="nav__item">
