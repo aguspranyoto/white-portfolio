@@ -57,6 +57,12 @@
   margin-bottom: var(--mb-0-5);
 }
 
+.work__desc {
+  font-size: var(--small-font-size);
+  font-weight: var(--font-normal);
+  margin-bottom: var(--mb-0-5);
+}
+
 .work__button {
   color: var(--text-color);
   font-size: var(--small-font-size);

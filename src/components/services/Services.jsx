@@ -52,7 +52,7 @@ function Services() {
               </p>
 
               <div className="services__modal-img">
-                <img src={certificate1} />
+                <img src={certificate1} className="" />
               </div>
             </div>
           </div>

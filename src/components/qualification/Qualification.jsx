@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Qualification.css";
 
 function Qualification() {
-  const [toggleState, setToggleState] = useState(1);
+  const [toggleState, setToggleState] = useState(2);
 
   const toggleTab = (index) => {
     setToggleState(index);
@@ -129,6 +129,28 @@ function Qualification() {
                 : "qualification__content"
             }
           >
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">
+                  Junior Frontend Engineer - Fulltime
+                </h3>
+                <span className="qualification__subtitle">
+                  PT. Summit Global Teknologi
+                </span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calender-alt"></i>
+                  Jan 2024 - Apr 2024
+                </div>
+              </div>
+            </div>
+
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">

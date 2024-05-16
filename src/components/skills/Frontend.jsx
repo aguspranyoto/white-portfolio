@@ -39,7 +39,7 @@ function Frontend() {
 
             <div>
               <h3 className="skills__name">Typescript</h3>
-              <span className="skills__level">Basic</span>
+              <span className="skills__level">Intermediate</span>
             </div>
           </div>
         </div>
@@ -59,15 +59,6 @@ function Frontend() {
 
             <div>
               <h3 className="skills__name">Vue</h3>
-              <span className="skills__level">Basic</span>
-            </div>
-          </div>
-
-          <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
-
-            <div>
-              <h3 className="skills__name">Redux</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
@@ -77,7 +68,16 @@ function Frontend() {
 
             <div>
               <h3 className="skills__name">Next Js</h3>
-              <span className="skills__level">Basic</span>
+              <span className="skills__level">Intermediate</span>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <i className="bx bx-badge-check"></i>
+
+            <div>
+              <h3 className="skills__name">Nuxt Js</h3>
+              <span className="skills__level">Intermediate</span>
             </div>
           </div>
         </div>
