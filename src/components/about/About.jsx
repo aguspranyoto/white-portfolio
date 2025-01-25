@@ -21,11 +21,12 @@ function About() {
           <Info />
 
           <p className="about__description">
-            Frontend developer, a passionate frontend developer dedicated to
-            bringing digital experiences to life through code and creativity.
-            With a strong foundation in HTML, CSS, and JavaScript, I specialize
-            in crafting beautiful and user-friendly websites and web
-            applications.
+            A passionate frontend engineer dedicated to crafting user-friendly
+            and responsive websites and web applications.Proficient in React js,
+            Vue js, Next js, and Nuxt js. Equipped with 4 months of professional
+            work experience and 9months of internship experience in web
+            development, as well as holding 2 professional certificates in
+            frontenddevelopment.
           </p>
 
           <a
